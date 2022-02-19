@@ -1,0 +1,50 @@
+[{
+    "version": 0.8,
+    "build": 1,
+    "current": true,
+    "partitionScheme":"min_spiffs",
+    "description": "Fix Telegram not working. Added possibility to send picture from ESP-cam!",
+    "compatibility": [0.7,0.6]
+},{
+    "version": 0.7,
+    "build": 1,
+    "current": false,
+    "partitionScheme":"min_spiffs",
+    "description": "Fix touch control. Small changes in UI",
+    "compatibility": [0.6]
+},{
+    "version": 0.6,
+    "build": 1,
+    "current": false,
+    "partitionScheme":"min_spiffs",
+    "description": "Implement Touch control. Bug fixes.",
+    "compatibility": []
+},{
+    "version": 0.5,
+    "build": 1,
+    "current": false,
+    "partitionScheme":"min_spiffs",
+    "description": "Remove WifiManager. Add wifi settings directly in ESPecial. ESPecial is now available even in AP mode.",
+    "compatibility": []
+},{
+    "version": 0.4,
+    "build": 1,
+    "current": false,
+    "partitionScheme":"min_spiffs",
+    "description": "Add analog read",
+    "compatibility": [0.2]
+},{
+    "version": 0.3,
+    "build": 2,
+    "current": false,
+    "partitionScheme":"min_spiffs",
+    "description": "Add web events, fix minor code issue",
+    "compatibility": [0.2]
+},{
+    "version": 0.2,
+    "build": 1,
+    "current": false,
+    "partitionScheme":"min_spiffs",
+    "description": "Major Webserver improvment and I2C integration. OTA from Github",
+    "compatibility": []
+}]
